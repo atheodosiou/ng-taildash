@@ -1,0 +1,13 @@
+<div [ngClass]="{
+    'fixed': isMobile && open,
+    'w-64':open,
+    'w-0': !open
+  }" class="bg-slate-900 text-white h-full flex flex-col  transition-width duration-100 ease-in-out">
+    @if (open) {
+    <ng-container>
+        sidebar
+        Mobile:{{isMobile}}
+        Open:{{open}}
+    </ng-container>
+    }
+</div>
