@@ -27,9 +27,7 @@ export class SidebarComponent implements OnInit {
       Breakpoints.Small,
     ])
       .pipe(debounceTime(200))
-      .subscribe(state => {
-        this.checkIfMobile();
-      });
+      .subscribe(state => this.checkIfMobile());
   }
 
   ngOnDestroy() {
