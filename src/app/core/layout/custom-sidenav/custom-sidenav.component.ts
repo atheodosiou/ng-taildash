@@ -20,7 +20,8 @@ export type MenuItem = {
     RouterLinkActive,
   ],
   template: `
-    <div class="flex flex-1 h-full flex-col">
+    <div class="flex flex-1 h-full justify-between flex-col bg-white">
+      <div>
       <div
         class="sidenav-header flex flex-col gap-2 items-center justify-center"
       >
@@ -57,10 +58,16 @@ export type MenuItem = {
         </a>
         }
       </mat-nav-list>
+      </div>
+      <p class="m-0 text-center text-gray-500 text-sm mb-4" [class.text-xs]="sideNavCollapsed()">
+        Version 1.0.0
+      </p>
     </div>
   `,
   styles: [
     `
+      @import "../../../../assets/styles/custom-theme.scss";
+
       :host * {
         transition: all 100ms ease-in-out;
       }
@@ -93,7 +100,7 @@ export type MenuItem = {
       }
 
       .selected-menu-item {
-        border-left-color: var(--primary-color);
+        border-left-color: $primary;
         background: rgba(0, 0, 0, 0.05);
       }
     `,

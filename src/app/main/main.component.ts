@@ -18,10 +18,11 @@ import { CustomSidenavComponent } from "../core/layout/custom-sidenav/custom-sid
     CustomSidenavComponent,
   ],
   template: `
-    <mat-toolbar class="mat-elevation-z3">
+    <mat-toolbar color="primary" class="mat-elevation-z3">
       <button mat-icon-button (click)="collapsed.set(!collapsed())">
         <mat-icon>menu</mat-icon>
       </button>
+      <p>NgTaildash</p>
     </mat-toolbar>
     <mat-sidenav-container>
       <mat-sidenav opened mode="side" [style.width]="sidenavWidth()">
