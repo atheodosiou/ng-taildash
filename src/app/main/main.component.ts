@@ -38,7 +38,7 @@ import {
       <button mat-icon-button (click)="collapsed.set(!collapsed())">
         <mat-icon>menu</mat-icon>
       </button>
-      <p>Wedding Plan</p>
+      <p>NgTaildash</p>
       <div class="flex-grow"></div>
       <button mat-button [matMenuTriggerFor]="menu">
         <mat-icon>arrow_drop_down</mat-icon>

@@ -37,7 +37,7 @@ export type MenuItem = {
             class="header-text"
             [class.hide-header-text]="sideNavCollapsed()"
           >
-            <h2>Wedding Plan</h2>
+            <h2>NgTaildash</h2>
           </div>
         </div>
         <mat-nav-list class="w-full">
