@@ -1,0 +1,15 @@
+{
+  "toolbar": {
+    "lang-en": "English",
+    "lang-gr": "Greek"
+  },
+  "sidenav": {
+    "links": {
+      "Overview": "Overview",
+      "Invitations": "Invitations",
+      "Menu": "Menu",
+      "Tables": "Tables"
+    },
+    "version":"Version"
+  }
+}

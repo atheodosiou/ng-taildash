@@ -1,0 +1,15 @@
+{
+  "toolbar": {
+    "lang-en": "Αγγλικά",
+    "lang-gr": "Ελληνικά"
+  },
+  "sidenav": {
+    "links": {
+      "Overview": "Επισκόπηση",
+      "Invitations": "Προσκλήσεις",
+      "Menu": "Μενού",
+      "Tables": "Τραπέζια"
+    },
+    "version": "Έκδοση"
+  }
+}
